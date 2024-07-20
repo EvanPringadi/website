@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>App</title>
+  </head>
+  <body>
+    <script>
+      let titleState= 'App';
+      let messages = 2;
+
+      setInterval(function (messages) {
+        if (titleState === 'App') {
+          document.title= '(`${messages}`) New messages';
+          titleState = 'Notification';
+        } else {
+          document.title= 'App';
+          titleState = 'App';
+        }
+      }, 1000);
+    </script>
+  </body>
+</html>

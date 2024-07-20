@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>11m</title>
+    </head>
+    <body>
+      <p></p>
+      <button onclick="
+          showMin ();
+          showMax ();
+          updateInfo();
+        ">Min and Max</button>
+      <p class="js-info"></p>
+      <script>
+        const num =[-3];
+
+        let min = '';
+        let max = '';
+
+        function showMin () {
+          for (let i=0; i< num.length; i++) {
+            const curr = num[i];
+            if (min === '') {
+              min = curr;
+            } else{
+                if (curr < min) {
+                min = curr;
+                }
+            }
+            
+          }
+        }
+
+        function showMax () {
+          for (let i=0; i< num.length; i++) {
+            const curr = num[i];
+            if (max === '') {
+              max = curr;
+            } else {
+              if (curr > max) {
+                max = curr;
+              }
+            }
+          }
+        }
+
+        function updateInfo() {
+          if (min === '' && max === '') {
+            min = 'null';
+            max = 'null';
+            console.log(min);
+            console.log(max);
+          } 
+          document.querySelector('.js-info')
+              .innerHTML = `min:${min}, max:${max}`;
+        }
+
+
+      </script>
+    </body>
+  </html>

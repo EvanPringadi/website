@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>DOM</title>
+    <style>
+      button{
+        background-color:aqua;
+        width:100px;
+        height:30px;
+        border-radius:20px;
+
+      }
+    </style>
+  </head>
+  <body>
+    <button>hello</button>
+    <button class="js-button">Yo!</button>
+    <script>
+      /*
+      document.body.innerHTML ='hello';
+      document.title ='Good Job!'
+      
+      
+      console.log(document.title);
+      document.title='changed';
+
+      console.log(document.body);
+      console.log(document.body.innerHTML);
+      */
+      
+
+      function hi() {
+        document.body.innerHTML = '<button>hi</button>';
+      }
+
+      
+
+      console.log(document.querySelector('button'));
+      console.log(document.querySelector('button').innerHTML);
+
+      document.querySelector('button')
+        .innerHTML = 'changed';
+
+      document.querySelector('.js-button')
+       .innerHTML = 'changed';
+
+       const buttonElement = document.querySelector('.js-button');
+       console.log(buttonElement);
+    </script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>9h</title>
+    <style>
+      body{
+        background-color:lightgray;
+        font:Arial;
+      }
+      input{
+        background-color:rgb(13, 227, 255);
+        width:900px;
+        height:36px;
+        padding-left:20px;
+        border-radius:20px;
+        color:rgb(0, 0, 0);  
+      }
+    </style>
+  </head>
+  <body>
+    <p class="js-result"></p>
+    <input placeholder="Type Here" class="js-text-input" 
+    onkeyup="
+      typeResult(event);"
+    onkeydown="
+      if (event.key === 'Backspace') {
+        typeResult(event);
+      }
+    ">
+    <script>
+      function typeResult(event) {
+        const inputElement = document.querySelector('.js-text-input');
+        console.log(inputElement.value);
+        document.querySelector('.js-result')
+          .innerHTML = `${inputElement.value}`;
+      }
+    </script>
+  </body>
+</html>

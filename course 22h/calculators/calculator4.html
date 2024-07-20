@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator4</title>
+    <link rel="stylesheet" href="calculator4.css">
+  </head>
+  <body>
+    <div class="background-overlay">
+      <div class="overlay">
+        <p class="js-input">Calculator</p>
+
+        <div class="first-line">
+          <button onclick="
+          removeZero()
+          calc=calc + '1';
+          show();
+          ">1
+          </button>
+
+          <button onclick="
+          removeZero()
+          calc=calc + '2';
+          show();
+          ">2
+          </button>
+
+          <button onclick="
+          removeZero()
+          calc=calc + '3';
+          show();
+          ">3
+          </button>
+
+          <button onclick="
+          removeZero()
+          calc=calc + ' + ';
+          show();
+          " class="operations">+
+          </button>
+        </div>
+        
+        <div class="second-line">
+          <button onclick="
+          removeZero()
+          calc=calc + '4';
+          show();
+          ">4
+          </button>
+
+          <button onclick="
+          removeZero()
+          calc=calc + '5';
+          show();
+          ">5
+          </button>
+
+          <button onclick="
+          removeZero()
+          calc=calc + '6';
+          show();
+          ">6
+          </button>
+
+          <button onclick="
+          removeZero()
+          calc=calc + ' - ';
+          show();
+          " class="operations">-
+          </button>
+        </div>
+        
+        <div class="third-line">
+          <button onclick="
+          removeZero()
+          calc=calc + '7';
+          show();
+          ">7
+          </button>
+
+          <button onclick="
+          removeZero()
+          calc=calc + '8';
+          show();
+          ">8
+          </button>
+
+          <button onclick="
+          removeZero()
+          calc=calc + '9';
+          show();
+          ">9
+          </button>
+
+          <button onclick="
+          calc=calc + ' * ';
+          show();
+          " class="operations">*
+          </button>
+        </div>
+
+        <div class="fourth-line">
+          <button onclick="
+          removeZero()
+          calc=calc+ '0';
+          show();
+          ">0
+          </button>
+
+          <button onclick="
+          calc=calc+ '.';
+          show();
+          ">.
+          </button>
+
+          <button onclick="
+          calc=eval(calc);
+          showAnswer();
+          ">=
+          </button>
+
+          <button onclick="
+          calc=calc + ' / ';
+          show();
+          " class="operations">/
+          </button>
+        </div>
+        
+        <div class="fifth-line">
+          <button onclick="
+          calc='Calculator';
+          console.log('Number was reset.');
+          show();
+          showAnswer();
+          ">
+            C
+          </button>
+        </div>
+      </div>
+      
+    </div>
+    
+    <script src="calculator4.js"></script>
+  </body>
+</html>

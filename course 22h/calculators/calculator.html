@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <style>
+      .header{
+        position:static;
+        display:flex;
+        background-color:gray;
+        justify-content: space-between;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <button onclick="
+        console.log(var1);
+        ">Show Number
+      </button>
+
+      <button onclick="
+        var1=var1+var2
+        console.log(var1);
+      ">Add
+      </button>
+
+      <button onclick="
+        var1=var1-var2
+        console.log(var1);
+      ">Substract
+      </button>
+
+      <button onclick="
+        var1=var1*var2
+        console.log(var1);
+      ">Multiply
+      </button>
+
+      <button onclick="
+        var1=var1/var2
+        console.log(var1);
+      ">Divide
+      </button>
+
+      <button onclick="
+        var1=0
+        console.log('Number has reset.');
+        console.log(var1);
+      ">Reset
+      </button>
+    </div>
+    <div>
+      <button onclick="
+         var2=0;
+         console.log(`Variable 2 = ${var2}`);
+        ">0
+      </button>
+      <button onclick="
+          var2=1;
+          console.log(`Variable 2 = ${var2}`);
+        ">1
+      </button>
+      <button onclick="
+         var2=2;
+         console.log(`Variable 2 = ${var2}`);
+        ">2
+      </button>
+      <button onclick="
+         var2=3;
+         console.log(`Variable 2 = ${var2}`);
+        ">3
+      </button>
+      <button onclick="
+         var2=4;
+         console.log(`Variable 2 = ${var2}`);
+        ">4
+      </button>
+      <button onclick="
+          var2=5;
+          console.log(`Variable 2 = ${var2}`);
+        ">5
+      </button>
+      <button onclick="
+          var2=6;
+          console.log(`Variable 2 = ${var2}`);
+        ">6
+      </button>
+      <button onclick="
+          var2=7;
+          console.log(`Variable 2 = ${var2}`);
+        ">7
+      </button>
+      <button onclick="
+         var2=8;
+         console.log(`Variable 2 = ${var2}`);
+        ">8
+      </button>
+      <button onclick="
+          var2=9;
+          console.log(`Variable 2 = ${var2}`);
+        ">9
+      </button>
+    </div>
+
+    <script>
+      let var1 = 0;
+      let var2 = 0;
+    </script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Objects</title>
+    <style></style>
+  </head>
+  <body>
+    <script>
+      /*
+      const product = {
+        name: 'socks', 
+        price: 1090
+      };
+
+      console.log(product);
+      
+      function calcTax (parameter1) {
+        console.log(parameter1 * 0.1);
+      }
+
+      calcTax(2000);
+      calcTax(5000);
+      
+
+      const product2 = {
+        name:'shirt'
+      };
+      console.log(product2);
+      console.log(product2['name']);
+
+      */
+
+      console.log('hello'.length);
+
+      const object1 = {
+        message: 'hello',
+        price: 799
+      }
+      // const message = object4.message;
+      const {message, price} = object1;
+      console.log(message);
+      console.log(price);
+
+      const object5 = {
+        message: message,
+        //message     (shortcut for line above)
+        method: function function1() {
+          console.log('method');
+        }
+        //method () {
+        //  console.log('method');
+        //}
+      };
+
+      console.log(object5);
+      object5.method();
+    </script>
+  </body>
+</html>

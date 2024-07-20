@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>11l</title>
+    </head>
+    <body>
+      <p>2,
+        10,
+        50,
+        -10,
+        -20</p>
+      <button onclick="
+          showMin ();
+          showMax ();
+          updateInfo();
+        ">Min and Max</button>
+      <p class="js-info"></p>
+      <script>
+        const num =[
+          2,
+          10,
+          50,
+          -10,
+          -20
+        ];
+
+        let min = '';
+        let max = '';
+
+        function showMin () {
+          for (let i=0; i< num.length; i++) {
+            const curr = num[i];
+            if (curr < min) {
+              min = curr;
+            }
+          }
+          console.log(min);
+        }
+
+        function showMax () {
+          for (let i=0; i< num.length; i++) {
+            const curr = num[i];
+            if (curr > max) {
+              max = curr;
+            }
+          }
+          console.log(max);
+        }
+
+        function updateInfo() {
+          document.querySelector('.js-info')
+            .innerHTML = `min:${min}, max:${max}`;
+        }
+
+
+      </script>
+    </body>
+  </html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Arrays and Loops</title>
+    <style>
+      body{
+        font-family:Arial;
+      }
+    </style>
+  </head>
+  <body>
+    <!--
+    <p class="ha0"></p>
+    <p class="ha1"></p>
+    <p class="ha2"></p>
+    -->
+    <script>
+      /*
+      const myArray = ['hi', 'my', 'name', 'is', 'Evan!'];
+
+      let i = 1;
+
+      while(i <= 5) {
+        console.log(myArray[i-1])
+        i ++;
+      }
+
+      
+      let stylesheet = document.styleSheets[0];
+      for (let i=0; i < stylesheet.cssRules.length; i++) {
+        console.log(stylesheet.cssRules[i].cssText)
+      }
+      
+     const toDoList = [
+      'make dinner',
+      'wash dishes',
+      'watch youtube'
+     ]
+
+     for (let i=0; i < toDoList.length; i++) {
+      console.log(toDoList[i]);
+      let say = `${toDoList[i]}`
+      document.querySelector(`.ha${i}`).innerHTML= say;
+     }
+      
+
+
+     const nums =[1, 4, 7];
+     let total = 0;
+
+     for (let i = 0; i < nums.length; i++) {
+      const num = nums[i];
+      total += num;
+     }
+     console.log(total);
+
+
+     const numsDoubled = [];
+
+     for (let i = 0; i < nums.length; i++) {
+      const num = nums[i];
+      numsDoubled.push(num*2);
+     }
+     console.log(numsDoubled)
+     */
+
+      const array1 = [1, 2, 3];
+      const array2=array1.slice();
+      array2.push(4);
+      console.log(array1);
+      console.log(array2);
+
+      for (let i=0; i <= 10; i++) {
+        console.log(i);
+        if(i%3 === 0) {
+          continue;
+        }
+      }
+
+
+
+
+
+      
+      /*
+      function count() {
+        let i=1;
+        while(i <= 10) {
+          if (i%3 === 0) {
+            i += 1;
+            continue;
+          }
+          console.log(i);
+          i++;
+        }
+      }
+
+      function count() {
+        let i = 1;
+        while (i <= 10) {
+          if (i % 3 === 0) {
+            i++; // Skip multiples of 3
+          } else {
+            console.log(i); // Only print non-multiples
+          }
+          i++;
+        }
+      }
+      count();
+      */
+      
+      
+
+
+
+      /*
+      function doubleArray (nums) {
+        const numsDoubled = [];
+
+        for (let i = 0; i < nums.length; i++) {
+          const num = nums[i];
+          if (num === 0) {
+            return numsDoubled;
+          }
+          numsDoubled.push(num*2);
+        }
+        return numsDoubled;
+      }
+      const nums = [1, 2, 4];
+      const nums2 = [3, 0, 5];
+      console.log(doubleArray (nums));
+      console.log(doubleArray (nums2));
+      */
+    </script>
+  </body>
+</html>

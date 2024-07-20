@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url('stars.jpg');
+  background-position-y: 30%;
+  position:fixed;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  background-color:rgba(70, 70, 70, 0.8);
+  color:white;
+}
+
+pre {
+  white-space: pre-wrap;
+  font-size: 1.2em;
+  line-height: 1.5;
+  background-color:rgba(70, 70, 70, 0.8);
+  color:white;
+}

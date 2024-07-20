@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12f</title>
+  </head>
+  <body>
+    <button onclick="
+      Added();
+      ">Add to cart</button>
+    <p class="js-added"></p>
+    <script>
+      let timeoutId;
+      function Added() {
+        document.querySelector('.js-added')
+        .innerHTML = 'Added';
+        
+        clearTimeout(timeoutId);
+        
+        timeoutId = setTimeout(function() {
+          document.querySelector('.js-added')
+            .innerHTML = '';
+        }, 2000);
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CoinFlip</title>
+    <style>
+      body{
+        background-color: lightblue;
+        margin:0;
+      }
+      button{
+        width: 150px;
+        height: 50px;
+        border-radius:30px;
+        border-style:solid;
+        border-width:1px;
+        background-color:rgb(247, 200, 207);
+      }
+      .background-overlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+      }
+      .holder{
+        display:flex;
+        flex: 1fr 1fr 1fr;
+        flex-direction:column;
+        width:600px;
+        height: 250px;
+        background-color:White;
+        border-radius:40px;
+        justify-content:space-around;
+      }
+      .holder1{
+        display:flex;
+        position:static;
+        justify-content:space-around;
+        align-items: center;
+      }
+      .green{
+        background-color:darkgreen;
+        color:darkgreen;
+        position:fixed;
+        bottom:0;
+        top:0;
+        width:50%;
+      }
+      .title{
+        text-align:center;
+        margin-top:20px;
+        font-size:30px;
+        margin-bottom:40px;
+      }
+      .holder2{
+        display:flex;
+        flex-direction: column;
+        text-align:center;
+        flex:1;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="green">
+      hi
+    </div>
+    <div class='background-overlay'>
+      <div class="holder">
+        <div class="title">
+          Coin Flip Game!
+        </div>
+        <div class="holder1">
+          <button onclick="
+            playGame('Heads');
+          ">
+          Heads
+          </button>
+        
+          <button onclick="
+            playGame('Tails');
+          ">
+          Tails
+          </button>
+        
+          <button onclick="
+            score.wins = 0;
+            score.losses = 0;
+            localStorage.removeItem('score');
+            updateScoreElement();
+          ">Reset Score
+          </button>
+        </div>
+        <div class="holder2">
+          <p class="js-result"></p>
+          <p class="js-score"></p>
+        </div>
+      </div>
+    </div>
+    
+    
+
+    <script>
+      let score = JSON.parse(localStorage.getItem('score')) || {
+          wins: 0,
+          losses: 0
+      };
+
+      function pickComputerMove () {
+        const randomNumber = Math.random();
+        let computerMove = '';
+        if (randomNumber >= 1/2) {
+          computerMove = 'Heads';
+        } else {
+          computerMove = 'Tails';
+        }
+
+        return computerMove;
+      }
+
+      function playGame (guess) {
+        const computerMove = pickComputerMove();
+        let result = '';
+
+        if (guess === computerMove) {
+          result = 'You win';
+        } else {
+          result = 'You lose';
+        }
+
+        if (result === 'You win') {
+          score.wins ++;
+        } else if (result === 'You lose') {
+          score.losses ++;
+        }
+
+        localStorage.setItem('score', JSON.stringify(score));
+
+        updateScoreElement();
+
+        document.querySelector('.js-result').innerHTML = result;
+      }
+
+      function updateScoreElement() {
+          document.querySelector('.js-score')
+          .innerHTML = `Wins: ${score.wins}, Losses: ${score.losses}`;
+      }
+    </script>
+  </body>
+</html>

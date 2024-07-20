@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator3</title>
+    <style>
+      p{
+        text-align:center;
+      }
+      .show{
+        background-color:lightblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="
+    display:flex;
+    flex-direction:row;
+    ">
+      <div style="
+      display:flex;
+      flex-direction:column;
+      width:50px;
+      ">
+        <button onclick="
+        calc=calc+ '0';
+        show();
+        ">0
+        </button>
+
+        <button onclick="
+        calc=calc + '1';
+        show();
+        ">1
+        </button>
+
+        <button onclick="
+        calc=calc + '2';
+        show();
+        ">2
+        </button>
+
+        <button onclick="
+        calc=calc + '3';
+        show();
+        ">3
+        </button>
+
+        <button onclick="
+        calc=calc + '4';
+        show();
+        ">4
+        </button>
+
+        <button onclick="
+        calc=calc + '5';
+        show();
+        ">5
+        </button>
+
+        <button onclick="
+        calc=calc + '6';
+        show();
+        ">6
+        </button>
+
+        <button onclick="
+        calc=calc + '7';
+        show();
+        ">7
+        </button>
+
+        <button onclick="
+        calc=calc + '8';
+        show();
+        ">8
+        </button>
+
+        <button onclick="
+        calc=calc + '9';
+        show();
+        ">9
+        </button>
+      </div>
+      <div style="
+      background-color:gray;
+      ">
+        <button onclick="
+        calc=calc + ' + ';
+        show();
+        ">+
+        </button>
+        <button onclick="
+        calc=calc + ' - ';
+        show();
+        ">-
+        </button>
+        <button onclick="
+        calc=calc + ' * ';
+        show();
+        ">*
+        </button>
+        <button onclick="
+        calc=calc + ' / ';
+        show();
+        ">/
+        </button>
+        <button onclick="
+        calc=eval(calc);
+        showAnswer();
+        ">=
+        </button>
+        <button onclick="
+        calc='';
+        console.log('Number was reset.');
+        show();
+        showAnswer();
+        ">
+          C
+        </button>
+        <div class="show">
+          <p class="js-input"></p>
+          <p class="js-result"></p>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let calc='';
+      let input = calc;
+      const result = calc;
+      function show() {
+        console.log(calc);
+        document.querySelector('.js-input').innerHTML = `${calc}`;
+      }
+      function showAnswer() {
+        console.log(calc);
+        document.querySelector('.js-result').innerHTML = `${calc}`;
+      }
+    </script>
+  </body>
+</html>
