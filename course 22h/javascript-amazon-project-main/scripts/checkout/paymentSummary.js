@@ -4,6 +4,17 @@ import { deliveryOptions, getDeliveryOption } from "../../data/deliveryOptions.j
 import {formatCurrency} from '../utils/money.js';
 
 export function renderPaymentSummary() {
+  function renderCartQuantity() {
+    let cartQuantity = 0;
+
+    cart.forEach((cartItem) => {
+      cartQuantity += cartItem.quantity;
+    });
+
+    document.querySelector('.js-total-items')
+      .innerHTML = `Items (${cartQuantity}):`;
+  }
+
   let productPriceCents = 0;
   let shippingPriceCents = 0;
 
@@ -25,7 +36,7 @@ export function renderPaymentSummary() {
     </div>
 
     <div class="payment-summary-row">
-      <div>Items (3):</div>
+      <div class="js-total-items">Items (3):</div>
       <div class="payment-summary-money">
        $${formatCurrency(productPriceCents)}
       </div>
@@ -65,4 +76,7 @@ export function renderPaymentSummary() {
 
     document.querySelector('.js-payment-summary')
       .innerHTML = paymentSummaryHTML;
+
+    
+  renderCartQuantity();
 }
