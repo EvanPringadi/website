@@ -83,5 +83,4 @@ export function updateQuantity(productId, newQuantity) {
     });
     matchingItem.quantity = newQuantity;
   });
-  console.log(cart);
 }

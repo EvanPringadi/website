@@ -55,7 +55,7 @@ export function renderOrderSummary() {
                 Update
               </span>
               <input class="quantity-input quantity-input-${matchingProduct.id}" data-product-id="${matchingProduct.id}">
-              <span class="save-quantity-link link-primary" data-product-id="${matchingProduct.id}">Save</span>
+              <span class="save-quantity-link link-primary js-save-quantity-link-${matchingProduct.id}" data-product-id="${matchingProduct.id}">Save</span>
               <span class="delete-quantity-link link-primary js-delete-link js-delete-link-${matchingProduct.id}" data-product-id="${matchingProduct.id}">
                 Delete
               </span>
@@ -137,16 +137,23 @@ export function renderOrderSummary() {
       link.addEventListener('click', () => {
        const productId = link.dataset.productId;
 
-      const container = document.querySelector(`.js-cart-item-container-${productId}`);
-      container.classList.add('is-editing-quantity');
+        const container = document.querySelector(`.js-cart-item-container-${productId}`);
+        container.classList.add('is-editing-quantity');
 
-      document.querySelector(`.js-cart-item-container-${productId}`).classList.add('is-editing-quantity');
+        document.querySelector(`.js-cart-item-container-${productId}`).classList.add('is-editing-quantity');
 
-        renderPaymentSummary();
-        renderCartQuantity();
+        document.body.addEventListener('keydown', (event) => {
+          if (event.key === 'Enter') {
+            const button = document.querySelector(`.js-save-quantity-link-${productId}`);
+            button.click();
+          }
+        });
+
+
       });
     });
 
+    //this event listener goes twice
     document.querySelectorAll('.save-quantity-link')
     .forEach((link) => {
       link.addEventListener('click', () => {
@@ -154,15 +161,19 @@ export function renderOrderSummary() {
 
         const quantityInput = document.querySelector(`.quantity-input-${productId}`);
         const newQuantity = Number(quantityInput.value);
-        updateQuantity(productId, newQuantity);
-        renderOrderSummary();
-        renderPaymentSummary();
-        renderCartQuantity();
 
-        document.querySelector(`.js-cart-item-container-${productId}`).classList.remove('is-editing-quantity');
+        if (newQuantity >0 && newQuantity <= 999) {
+          updateQuantity(productId, newQuantity);
+          renderOrderSummary();
+          renderPaymentSummary();
+          renderCartQuantity();
 
-        
-
+          document.querySelector(`.js-cart-item-container-${productId}`).classList.remove('is-editing-quantity');
+        } else if (newQuantity === 0){
+          return; //this prevents the final quantity to be zero
+        } else {
+          alert(`New Quantity isn't Valid`);
+        }
       });
     });
 
