@@ -16,36 +16,32 @@ def guess_game():
 
     if guess == random_number:
       print("Congratulations! You guessed the number in", guesses, "guesses.")
-      break
+      return playAgain()
     elif guess < random_number:
       print("Too low!")
     else:
       print("Too high!")
     
 def intro():
-  while True:
-    answer = input("Do You Want To Guess A Number? (Y/N)")
-    if answer == "Y" or "Yes":
-      guess_game()
-      if not playAgain():
-        break
-    elif answer == "N" or "No":
-      print("Bye! Have a Nice Day!")
-      break
-    else:
-      print("Input Invalid")
+  answer = input("Do You Want To Guess A Number? (Y/N)")
+  if answer == "Y" or answer ==  "y":
+    guess_game()
+  elif answer == "N" or answer == "n":
+    print("Bye! Have a Nice Day!")
+  else:
+    print("Input Invalid")
+    intro()
     
 
 def playAgain():
-  while True:
-    answer = input("Do You Want To Play Again? (Y/N)")
-    if answer == "Y" or "Yes":
-      return True
-    elif answer == "N" or "No":
-      print("Bye! Have a Nice Day!")
-      return False
-    else:
-      print("Input Invalid")
+  answer = input("Do You Want To Play Again? (Y/N)")
+  if answer == "Y" or answer == "y":
+    guess_game()
+  elif answer == "N" or answer == "n":
+    print("Bye! Have a Nice Day!")
+  else:
+    print("Input Invalid")
+    playAgain()
     
 intro()
 
