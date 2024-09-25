@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "thirdMain",
+      "request": "launch",
+      "mainClass": "thirdProject/thirdProject.thirdMain",
+      "projectName": "thirdProject"
+    },
+    {
+      "type": "java",
+      "name": "thirdProject/Test",
+      "request": "launch",
+      "mainClass": "thirdProject/Test",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "Test",
       "request": "launch",
       "mainClass": "Test",
