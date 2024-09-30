@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul1_No5",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.EvanAshleyPringadi_1124012_Modul1_No5",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul1_No4",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.EvanAshleyPringadi_1124012_Modul1_No4",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul1_No3",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.EvanAshleyPringadi_1124012_Modul1_No3",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul1_No2",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.EvanAshleyPringadi_1124012_Modul1_No2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul1_No1",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.EvanAshleyPringadi_1124012_Modul1_No1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul1_No1",
+      "request": "launch",
+      "mainClass": "EvanAshleyPringadi_1124012_Modul1_No1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "thirdMain",
       "request": "launch",
       "mainClass": "thirdProject/thirdProject.thirdMain",
