@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tables and Lists</title>
+    <style>
+      table{
+        margin-bottom:20px;
+      }
+      table, th, td {
+        border: 1px solid black;
+        width:50%;
+      }
+      th, td{
+        padding:8px 5px;
+      }
+      .tabel-satu th, .tabel-satu td{
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <table class="table-satu">
+      <caption>Hal Favorit dan Paling Tidak Favorit</caption>
+      <tr>
+        <th></th>
+        <th></th>
+        <th>Bob</th>
+        <th>Alice</th>
+      </tr>
+      <tr>
+        <th rowspan="2">Favorite</th> 
+        <th>Color</th>
+        <td>Blue</td>
+        <td> Banana</td>
+      </tr>
+      <tr>
+        <th>Flavor</th>
+        <td>Banana</td>
+        <td>Chocolate</td>
+      </tr>
+      <tr></tr>
+        <th rowspan="2">Least Favorite</th> 
+        <th>Color</th>
+        <td>Yellow</td>
+        <td> Pink</td>
+      </tr>
+      <tr>
+        <th>Flavor</th>
+        <td>Mint</td>
+        <td>Walnut</td>
+      </tr>
+    </table>
+
+
+    <table>
+      <caption>Invoice Table</caption>
+      <tr>
+        <th colspan="3">Invoice #123456789</th>
+        <th>14 January 2025</th>
+      </tr>
+      <tr>
+        <td colspan ="2"><strong>Pay to:</strong><br>
+          Berry<br>
+          Dipatiukur no 80<br>
+          Bandung 40135
+        </td>
+        <td colspan="2"><strong>Customer:</strong><br>
+          Derry<br>
+          Bukit Dago Kencana<br>
+          Bandung 40155
+        </td>
+      </tr>
+      <tr>
+        <th>Name/Menu</th>
+        <th>Jumlah></th>
+        <th>Discount</th>
+        <th>Harga</th>
+      </tr>
+      <tr>
+        <td>Celery Juice</td>
+        <td>1</td>
+        <td>10%</td>
+        <td>10000</td>
+      </tr>
+      <tr>
+        <td>Water Melon Juice</td>
+        <td>2</td>
+        <td>5%</td>
+        <td>30000</td>
+      </tr>
+      <tr>
+        <th colspan="3">Subtotal</th>
+        <td>40000</td>
+      </tr>
+      <tr>
+        <th colspan="2">Pajak</th>
+        <td>10%</td>
+        <td>4000</td>
+      </tr>
+      <tr>
+        <th colspan="2">Grand Total</th>
+        <td>Rp</td>
+        <td>44000</td>
+      </tr>
+    </table>
+
+    <p><b>List Menu</b></p>
+    <ul>
+      <li>Heartbeat</li>
+      <li>Flu Fighter</li>
+      <li>Pain Pain Go Away</li>
+      <ul>
+        <li>Carrot</li>
+        <li>Pineapple</li>
+        <li>Kale</li>
+      </ul>
+      <li>Happy Juice</li>
+      <li>Hangover Helper</li>
+      <ul>
+        <li>Kale</li>
+        <li>aloe Vera</li>
+      </ul>
+      <li>Immunity Rocket</li>
+      <li>Refresher</li>
+      <li>Detox</li>
+      <ul>
+        <li>Apple</li>
+        <li>Cucumber</li>
+        <li>Ginger</li>
+        <ul>
+          <li>Ginger Carrot</li>
+          <li>Green apple ginger</li>
+        </ul>
+      </ul>
+    </ul>
+  </body>
+</html>
