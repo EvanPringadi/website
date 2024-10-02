@@ -1,4 +1,4 @@
-package College.PraktikumAlgo;
+package College.PraktikumAlgo.Modul1;
 
 import java.util.Scanner;
 

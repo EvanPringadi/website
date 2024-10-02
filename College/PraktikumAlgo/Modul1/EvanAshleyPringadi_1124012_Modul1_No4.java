@@ -1,4 +1,4 @@
-package College.PraktikumAlgo;
+package College.PraktikumAlgo.Modul1;
 import java.util.Scanner;
 public class EvanAshleyPringadi_1124012_Modul1_No4 {
   public static void main(String[] args) {
