@@ -8,6 +8,13 @@
       "type": "java",
       "name": "EvanAshleyPringadi_1124012_Modul1_No5",
       "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul1.EvanAshleyPringadi_1124012_Modul1_No5",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul1_No5",
+      "request": "launch",
       "mainClass": "College.PraktikumAlgo.EvanAshleyPringadi_1124012_Modul1_No5",
       "projectName": "website_1c8b55a1"
     },

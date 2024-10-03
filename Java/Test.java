@@ -9,16 +9,14 @@ public class Test {
       System.out.println(name);
 
       System.out.println("Silakan isi panjang balok...");
-      Scanner scannerPanjang = new Scanner(System.in);
-      float panjang = scannerPanjang.nextFloat();
+      Scanner sc = new Scanner(System.in);
+      float panjang = sc.nextFloat();
 
       System.out.println("Silakan isi lebar balok...");
-      Scanner scannerLebar = new Scanner(System.in);
-      float lebar = scannerLebar.nextFloat();
+      float lebar = sc.nextFloat();
 
       System.out.println("Silakan isi tinggi balok...");
-      Scanner scannerTinggi = new Scanner(System.in);
-      float tinggi = scannerTinggi.nextFloat();
+      float tinggi = sc.nextFloat();
 
       float volume = panjang * lebar * tinggi; 
 

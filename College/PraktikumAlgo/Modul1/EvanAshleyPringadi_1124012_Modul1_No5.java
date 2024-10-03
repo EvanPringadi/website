@@ -64,7 +64,7 @@ public class EvanAshleyPringadi_1124012_Modul1_No5 {
     System.out.println("Dengan demikian, Nilai Akumulasinya adalah " + nilaiTotalJuriTiga);
     System.out.println("Terima Kasih atas Penilaian Anda!");
 
-    double nilaiAkhir = (nilaiTotalJuriSatu + nilaiTotalJuriDua + nilaiTotalJuriTiga)/3;
+    double nilaiAkhir = Math.round((nilaiTotalJuriSatu + nilaiTotalJuriDua + nilaiTotalJuriTiga)/3);
     System.out.println("Dengan demikian, Nilai Semua Juri telah Ditentukan, yaitu adalah " + nilaiAkhir);
     JOptionPane.showMessageDialog(null, "Nilai Akhir Semua Juri adalah " + nilaiAkhir, "Nilai Akhir", JOptionPane.INFORMATION_MESSAGE);
   }
