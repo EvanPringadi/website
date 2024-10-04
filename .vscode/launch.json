@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HarddiskMPH",
+      "request": "launch",
+      "mainClass": "College.Algoritma.HarddiskMPH",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "BBIdeal",
+      "request": "launch",
+      "mainClass": "College.Algoritma.BBIdeal",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "ValidasiSegitiga",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ValidasiSegitiga",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Swap3Variabel",
+      "request": "launch",
+      "mainClass": "College.Algoritma.Swap3Variabel",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Diskon10Persen",
+      "request": "launch",
+      "mainClass": "College.Algoritma.Diskon10Persen",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "EvanAshleyPringadi_1124012_Modul1_No5",
       "request": "launch",
       "mainClass": "College.PraktikumAlgo.Modul1.EvanAshleyPringadi_1124012_Modul1_No5",

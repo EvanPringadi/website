@@ -1,3 +1,4 @@
+package College.Algoritma;
 import java.util.Scanner;
 
 public class SelisihJam { 
