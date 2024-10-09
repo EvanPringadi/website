@@ -6,6 +6,76 @@
   "configurations": [
     {
       "type": "java",
+      "name": "selisihHari",
+      "request": "launch",
+      "mainClass": "College.Algoritma.selisihHari",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No9",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No9",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No8",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No8",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No7",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No7",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No6",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No6",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No5",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No5",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No4",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No4",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No3",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No3",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No2",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No1",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "HarddiskMPH",
       "request": "launch",
       "mainClass": "College.Algoritma.HarddiskMPH",
