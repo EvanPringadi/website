@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "klasifikasiUmur",
+      "request": "launch",
+      "mainClass": "College.Algoritma.klasifikasiUmur",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "selisihHari",
       "request": "launch",
       "mainClass": "College.Algoritma.selisihHari",
