@@ -1,3 +1,5 @@
+import dayjs from 'https://unpkg.com/dayjs@1.11.10/esm/index.js';
+
 let date1 = 121;
 
 let month1 = Math.floor(121/100);
@@ -5,7 +7,7 @@ date1 = 121%100;
 
 console.log(month1 + " " + date1);
 
-date = [930, 505, 210, 731, 1212, 723, 630, 422, 1111];
+const date = [930, 505, 210, 731, 1212, 723, 630, 422, 1111];
 
 //consoleDate(date);
 
@@ -52,7 +54,7 @@ function consoleDate(date) {
 function getLowestNumber(num) {
   let lowest_num = num[0];
   for (let i=0; i < num.length; i++) {
-    curr_num = num[i];
+    const curr_num = num[i];
     if (lowest_num > curr_num) {
       lowest_num = curr_num;
     }
@@ -80,3 +82,6 @@ function sort(num) {
   }
   return sorted_num;
 }
+
+const DateJS = dayjs();
+console.log(DateJS)

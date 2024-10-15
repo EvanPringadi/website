@@ -1,6 +1,6 @@
 console.log("hello");
 let num = [2, 2, 5, 1, 4];
-let number = [55, 12, 4, 17, 77, 12];
+let number = [55, 12, 4, 17, 12];
 
 console.log(sort(num));
 console.log(sort(number));

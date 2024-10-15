@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <style>
+    </style>
+  </head>
+  <body>
+    <form action = "URL" method="GET|POST" oninput="result.value=parseInt(rangeInput.value)">
+      <header><h1>Register for My Planet Sports</h1></header>
+      <fieldset>
+        <legend>Personal details</legend>
+
+        <p>First Name: </p> <input placeholder="First name only" required>
+        <p>Last Name: </p> <input placeholder="Last name only" required>
+        <p>Date of Birth</p> <input type="date" required>
+        <p>Email</p> <input type="email" placeholder="example@domain.com" required>
+        <p>Shoesize</p> <input type="number">
+        <p>Flying Skill level (1 low - 100 high)</p> 
+        <input type="range" min="0" max="100" value="50" name="rangeInput"> 
+        <output for="rangeInput" name="result">0</output>
+
+      </fieldset>
+      <fieldset>
+        <legend>Billing address</legend>
+
+        <p>Address</p> <textarea rows="6" cols="23" required></textarea>
+        <p>Postcode</p> <input required>
+        <p>Country</p> <input list="Country">
+
+        <datalist id="Country">
+          <option value="Indonesia"></option>
+          <option value="India"></option>
+          <option value="Rusia"></option>
+          <option value="Amerika"></option>
+        </datalist>
+      </fieldset>
+      <fieldset>
+        <legend>Card details</legend>
+          <fieldset>
+            <legend>Card type</legend>
+            <input type="radio" name="Card" value="VISA"> VISA
+            <input type="radio" name="Card" value="Mastercard"> Mastercard
+            <input type="radio" name="Card" value="AMEX"> AMEX
+          </fieldset>
+
+        <p>Name</p> <input>
+        <p>Card Number</p> <input type="number" minlength="6" maxlength="6">
+        <p>Security code</p> <input type="number">
+        <p>Expiry Date</p> <input type="month" required>
+      </fieldset>
+      <input type="submit" value="place order">
+    </form>
+  </body>
+</html>

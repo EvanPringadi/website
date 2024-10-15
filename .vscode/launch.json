@@ -6,6 +6,62 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul3_No3",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul3.EvanAshleyPringadi_1124012_Modul3_No3",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul3_No2",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul3.EvanAshleyPringadi_1124012_Modul3_No2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul3_No1",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul3.EvanAshleyPringadi_1124012_Modul3_No1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "hargaitem",
+      "request": "launch",
+      "mainClass": "College.Algoritma.hargaitem",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "parkirRumahSakit",
+      "request": "launch",
+      "mainClass": "College.Algoritma.parkirRumahSakit",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "nilaiAlgo",
+      "request": "launch",
+      "mainClass": "College.Algoritma.nilaiAlgo",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "tahunKabisat",
+      "request": "launch",
+      "mainClass": "College.Algoritma.tahunKabisat",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul2_No10",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul2.EvanAshleyPringadi_1124012_Modul2_No10",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "klasifikasiUmur",
       "request": "launch",
       "mainClass": "College.Algoritma.klasifikasiUmur",

@@ -1,4 +1,4 @@
-num1 = [4, 3, 5, 9, 6, 10, 9, 12, 15, 7, 3];
+num1 = [20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9];
 console.log(sort(num1));
 
 function renderTodoList(toDoList) {
