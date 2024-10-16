@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "jumlahBilanganGanjil",
+      "request": "launch",
+      "mainClass": "College.Algoritma.jumlahBilanganGanjil",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "EvanAshleyPringadi_1124012_Modul3_No3",
       "request": "launch",
       "mainClass": "College.PraktikumAlgo.Modul3.EvanAshleyPringadi_1124012_Modul3_No3",
