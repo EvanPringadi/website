@@ -6,6 +6,111 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul4_No6",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul4.EvanAshleyPringadi_1124012_Modul4_No6",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul4_No5",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul4.EvanAshleyPringadi_1124012_Modul4_No5",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul4_No4",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul4.EvanAshleyPringadi_1124012_Modul4_No4",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_Modul4_No3",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul4.EvanAshleyPringadi_Modul4_No3",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul4_No2",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul4.EvanAshleyPringadi_1124012_Modul4_No2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul4_No1",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul4.EvanAshleyPringadi_1124012_Modul4_No1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul3_No5",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul3.EvanAshleyPringadi_1124012_Modul3_No5",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul3_No4",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul3.EvanAshleyPringadi_1124012_Modul3_No4",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "test2",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.test2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "test",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.test",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "pohon",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.pohon",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "frame",
+      "request": "launch",
+      "mainClass": "College.Algoritma.frame",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "bintang",
+      "request": "launch",
+      "mainClass": "College.Algoritma.bintang",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "coc",
+      "request": "launch",
+      "mainClass": "College.Algoritma.coc",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "reparasiMobil",
+      "request": "launch",
+      "mainClass": "College.Algoritma.reparasiMobil",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "jumlahBilanganGanjil",
       "request": "launch",
       "mainClass": "College.Algoritma.jumlahBilanganGanjil",

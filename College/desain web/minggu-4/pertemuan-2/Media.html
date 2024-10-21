@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body{
+        background-color: lightskyblue;
+      }
+      img{
+        width: 200px;
+      }
+      video{
+        width:500px;
+      }
+      .Profile, audio, video, iframe{
+        margin-bottom: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="Profile">
+      <picture>
+        <source media="(min-width:100px)" srcset="profile.jpg">
+        <source media="(max-width:1000px)" srcset="profile.jpg">
+        <img src="profile.jpg" alt="profile">
+      </picture>
+      <div>My profile</div>
+    </div>
+
+    <div class="audio">
+      <div>One of my favorite song</div>
+      <audio controls preload="auto">
+        <source src="Alan Walker - Darkside (feat. AuRa and Tomine Harket) 8D AUDIO.mp3" type="audio/mp3">
+      </audio>
+    </div>
+  
+    <div class="video">
+      <div>Funny moment</div>
+      <video controls>
+        <source src="VALORANT   2024-05-04 16-27-16.mp4" type="video/mp4">
+      </video>
+    </div>
+    
+    <div class="iframe">
+      <div>The song in my head recently</div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/Mnk4dLa99l4?si=g8i0tTfthj8vA5Mh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
