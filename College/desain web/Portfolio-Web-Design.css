@@ -1,0 +1,67 @@
+body{
+  font-family:Arial;
+  background-color: rgba(40, 40, 40, 0.96);
+}
+.channel-name{
+  color:gray;
+  margin-bottom:20px;
+}
+.channel-name:hover {
+  cursor: pointer;
+}
+.server{
+  width:60px;
+  border-radius:40px;
+  margin-left:10px;
+  margin-bottom:5px;
+}
+.profile{
+  width:50px;
+  border-radius:40px;
+  margin-left:10px;
+  margin-bottom:5px;
+}
+section{
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  margin-bottom: 10px;
+}
+.message-info{
+  margin-top: 3px;
+}
+.name{
+  font-size: 16px;
+  font-weight: 400;
+  display: inline;
+  margin-right: 4px;
+}
+.date{
+  font-size: 13px;
+  display: inline;
+  color: gray;
+}.message{
+  margin-top: 3px;
+  color: rgba(255, 255, 255, 0.9);
+}
+p{
+  margin: 0;
+}
+.iframe-container {
+  position: relative;
+  width: 80%;          /* Full width */
+  padding-top: 45%;  /* 16:9 Aspect Ratio, adjust for other ratios */
+  
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+}
+
+footer{
+  height: 100px;
+}

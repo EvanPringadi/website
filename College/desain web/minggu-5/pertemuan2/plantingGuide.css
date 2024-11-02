@@ -1,0 +1,10 @@
+body{
+  background-image: url("header.gif");
+  background-repeat: repeat-x;
+  color: gray;
+}
+h1{
+  margin:10px;
+  margin-top: 50px;
+  color: white;
+}

@@ -1,0 +1,16 @@
+package College.Algoritma.forloop;
+import java.util.Scanner;
+public class segitiga {
+  public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+    System.out.print("Masukkan n: ");
+    int n = Integer.parseInt(sc.nextLine());
+
+    for (int i = 0; i < n; i++) {
+      for (int j = n+i; j >= n; j--) {
+        System.out.print(j);
+      }
+      System.out.println();
+    }
+  }
+}

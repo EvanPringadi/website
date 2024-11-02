@@ -3,29 +3,33 @@
   <head>
     <title>Praktikum Sesi 4</title>
     <style>
-     
+      body{
+        background-color: white;
+      }
+      img{
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+      }
+      .return-button{
+        cursor: pointer;
+      }
     </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
-
     <img src="image.png" alt="Shapes" usemap="#shapemap" width="1463" height="596">
     <map name="shapemap">
-      <area shape="rect" coords="84, 70, 388, 482" alt="Rectangle" href="index.html">
+      <area shape="rect" coords="84, 70, 388, 482" alt="Rectangle" href="index.html"></area>
       <area shape="circle" coords="706, 277, 215" alt="Circle" href="about.html"></area>
       <area shape="poly" coords="1100, 80, 1330, 90, 1440, 280, 1330, 80, 1100, 480, 990, 280" alt="Poly" href="profile.html"></area>
     </map>
+    
 
+    <p>Click on picture below to go back</p>
+    <img class="return-button" src="click_here.jpg" onclick="window.location.href = 'index.html'">
 
-
-
-
-
-
-
-
-
-
-    <p>Click here to go back</p>
-    <img src="click_here.jpg" onclick="window.location.href = 'index.html'">
+    
   </body>
 </html>

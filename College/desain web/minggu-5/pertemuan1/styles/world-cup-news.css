@@ -1,0 +1,29 @@
+body{
+  background-color: white;
+}
+#wrapper{
+  width: 700px;
+  height: 100%;
+  border: 1px solid #000000;
+  padding: 10px;
+  background-color: #a6e1ec;
+}
+img{
+  width: 200px;
+  height:120px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  width: 600px;
+  padding: 10px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  border:1px solid #000000;
+}
+span{
+  color: #2EA620;
+}

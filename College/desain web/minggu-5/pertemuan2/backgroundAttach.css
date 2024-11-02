@@ -1,0 +1,12 @@
+body{
+  background-image: url("plants.jpg");
+  background-size: 30%;
+  background-repeat: repeat-y;
+  color: gray;
+  height: 9000px;;
+}
+h1{
+  margin:10px;
+  margin-top: 50px;
+  color: white;
+}

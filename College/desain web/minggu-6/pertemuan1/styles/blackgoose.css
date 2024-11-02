@@ -1,0 +1,21 @@
+body{
+  background-color: #faf2e4;
+  padding: 20px 100px;
+}
+.restaurant-profile{
+  text-align: center;
+  border: 3px solid rgb(135, 194, 214);
+  border-radius: 10%;
+  height: 215px;
+}
+h1{
+  font-weight: normal;
+  margin: 0%;
+}
+footer{
+  background-color: #89b1dE;
+}
+.title{
+  color: #d1633c;
+  font-weight: bold;
+}

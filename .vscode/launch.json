@@ -6,6 +6,132 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Quiz1_Nomor4_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz1.Quiz1_Nomor4_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Quiz1_Nomor3_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz1.Quiz1_Nomor3_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Quiz1_Nomor2C_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz1.Quiz1_Nomor2C_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Quiz1_Nomor2B_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz1.Quiz1_Nomor2B_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Quiz1_Nomor2A_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz1.Quiz1_Nomor2A_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Quiz1_Nomor1_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz1.Quiz1_Nomor1_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "selisihHari",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ifelse.selisihHari",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "log2",
+      "request": "launch",
+      "mainClass": "College.Algoritma.whileloop.log2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "CollatzProblem",
+      "request": "launch",
+      "mainClass": "College.Algoritma.whileloop.CollatzProblem",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "bilanganArmstrong",
+      "request": "launch",
+      "mainClass": "College.Algoritma.whileloop.bilanganArmstrong",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "jumlahGanjil",
+      "request": "launch",
+      "mainClass": "College.Algoritma.whileloop.jumlahGanjil",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "reverseInteger",
+      "request": "launch",
+      "mainClass": "College.Algoritma.whileloop.reverseInteger",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "PIN_ATM",
+      "request": "launch",
+      "mainClass": "College.Algoritma.whileloop.PIN_ATM",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "konversiBilangan",
+      "request": "launch",
+      "mainClass": "College.Algoritma.whileloop.konversiBilangan",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "belahketupatkosong",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.belahketupatkosong",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "jajargenjangkosong",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.jajargenjangkosong",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "segitiga",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.segitiga",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "nazi",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.nazi",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "EvanAshleyPringadi_1124012_Modul4_No6",
       "request": "launch",
       "mainClass": "College.PraktikumAlgo.Modul4.EvanAshleyPringadi_1124012_Modul4_No6",

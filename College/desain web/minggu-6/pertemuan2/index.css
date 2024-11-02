@@ -1,0 +1,35 @@
+.audiowide-regular {
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{
+	font-family: 'Audiowide';
+	background-color: rgb(190, 190, 255);
+;			}
+header h1, header p {
+	display:inline-block;
+	margin-right: 30px;
+}
+header {
+	background-color:rgb(220, 220, 255);
+	text-align: center-center;
+}
+section{
+	display:flex;
+	flex-direction: right;
+}
+article {
+	display:inline-block;
+	border: 2px dotted gray;
+	margin: 0 20px;
+	background-color:white;
+	width: 40%;
+	padding:8px;
+	border-radius: 20px;
+	word-break: break-word;
+}
+.title{
+	color: rgb(140, 10, 10);
+	font-weight:bold;
+}

@@ -1,16 +1,25 @@
 package College.Algoritma.forloop;
-
+import java.util.Scanner;
 public class test {
   public static void main(String[] args) {
-      int n = 4;
-      
-    for(int i = 1; i <=n; i++) {
-      System.out.print(i);
-      for(int j = 2; j <=i; j++) {
-        System.out.print(i+n-j+1);
+    int n = 4; // Change this value for a different input
+
+    // for (int i = 1; i <= n; i++) {
+    //     int current = i;
+    //     for (int j = 0; j < i; j++) {
+    //         System.out.print(current + " ");
+    //         current += n - j - 1;
+    //     }
+    //     System.out.println();
+    // }
+
+    for (int i = 1; i <= n; i++) {
+      int current = i;
+      for (int j = 1; j <= i; j++) {
+          System.out.print(current + " ");
+          current += n - j;
       }
       System.out.println();
     }
-
   }
 }
