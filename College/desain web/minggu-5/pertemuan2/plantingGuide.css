@@ -2,6 +2,7 @@ body{
   background-image: url("header.gif");
   background-repeat: repeat-x;
   color: gray;
+  background-color: white;
 }
 h1{
   margin:10px;

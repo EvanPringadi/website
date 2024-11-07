@@ -16,6 +16,33 @@ const semuaTugas = [
     {date: "07/10/2024", message: '', src: 'minggu-3/pertemuan 1/iFrame.html'},
     {date: "09/10/2024", message: 'Pertemuan 2 ~ Kuis 1', src: ''},
     {date: "09/10/2024", message: '', src: 'minggu-3/pertemuan 2/index.html'}
+  ], [
+    {date: "14/10/2024", message: 'Pertemuan 1', src: ''},
+    {date: "14/10/2024", message: '', src: 'minggu-4/1124012_Form.html'},
+    {date: "16/10/2024", message: 'Pertemuan 2', src: ''},
+    {date: "16/10/2024", message: '', src: 'minggu-4/pertemuan-2/Media.html'}
+  ], [
+    {date: "21/10/2024", message: 'Pertemuan 1', src: ''},
+    {date: "21/10/2024", message: '', src: 'minggu-5/pertemuan1/reversed-list.html'},
+    {date: "21/10/2024", message: '', src: 'minggu-5/pertemuan1/runners-home.html'},
+    {date: "21/10/2024", message: '', src: 'minggu-5/pertemuan1/book-story.html'},
+    {date: "21/10/2024", message: '', src: 'minggu-5/pertemuan1/world-cup-news.html'},
+    {date: "23/10/2024", message: 'Pertemuan 2', src: ''},
+    {date: "23/10/2024", message: '', src: 'minggu-5/pertemuan2/breedHisroty1.html'},
+    {date: "23/10/2024", message: '', src: 'minggu-5/pertemuan2/breedHisroty2.html'},
+    {date: "23/10/2024", message: '', src: 'minggu-5/pertemuan2/plantingGuide.html'},
+    {date: "23/10/2024", message: '', src: 'minggu-5/pertemuan2/backgroundAttach.html'}
+  ], [
+    {date: "28/10/2024", message: 'Pertemuan 1', src: ''},
+    {date: "28/10/2024", message: '', src: 'minggu-6/pertemuan1/reversed-list.html'},
+    {date: "28/10/2024", message: '', src: 'minggu-6/pertemuan1/runners-home.html'},
+    {date: "28/10/2024", message: '', src: 'minggu-6/pertemuan1/book-story.html'},
+    {date: "28/10/2024", message: '', src: 'minggu-6/pertemuan1/world-cup-news.html'},
+    {date: "23/10/2024", message: 'Pertemuan 2', src: ''},
+    {date: "30/10/2024", message: '', src: 'minggu-5/pertemuan2/breedHisroty1.html'},
+    {date: "23/10/2024", message: '', src: 'minggu-5/pertemuan2/breedHisroty2.html'},
+    {date: "23/10/2024", message: '', src: 'minggu-5/pertemuan2/plantingGuide.html'},
+    {date: "23/10/2024", message: '', src: 'minggu-5/pertemuan2/backgroundAttach.html'}
   ]
 ]
 

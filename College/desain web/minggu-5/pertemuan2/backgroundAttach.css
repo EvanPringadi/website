@@ -1,12 +1,13 @@
 body{
   background-image: url("plants.jpg");
   background-size: 30%;
-  background-repeat: repeat-y;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
   color: gray;
-  height: 9000px;;
+  height: 9000px;
+  background-color: white;
 }
 h1{
   margin:10px;
   margin-top: 50px;
-  color: white;
 }

@@ -1,16 +1,17 @@
 body{
   background-color: white;
+  display: flex;
+  justify-content: center;
 }
 #wrapper{
-  width: 700px;
-  height: 100%;
+  width: 93%;
+  max-width: 700px;
   border: 1px solid #000000;
   padding: 10px;
   background-color: #a6e1ec;
 }
 img{
-  width: 200px;
-  height:120px;
+  width: 34%;
   margin-right: 10px;
   vertical-align: middle;
 }
@@ -18,7 +19,7 @@ ul{
   list-style-type: none;
 }
 li{
-  width: 600px;
+  width:90%;
   padding: 10px;
   margin-bottom: 5px;
   font-size: 14px;

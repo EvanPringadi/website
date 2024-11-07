@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "tabel",
+      "request": "launch",
+      "mainClass": "College.Algoritma.array.tabel",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "nilaiMahasiswa",
+      "request": "launch",
+      "mainClass": "College.Algoritma.array.nilaiMahasiswa",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "pilkada",
+      "request": "launch",
+      "mainClass": "College.Algoritma.whileloop.pilkada",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "UTS_Soal4_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.UTS.UTS_Soal4_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "UTS_Soal3_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.UTS.UTS_Soal3_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "UTS_Soal2_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.UTS.UTS_Soal2_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "UTS_Soal1_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.UTS.UTS_Soal1_1124012",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "Quiz1_Nomor4_1124012",
       "request": "launch",
       "mainClass": "College.PraktikumAlgo.Quiz1.Quiz1_Nomor4_1124012",
