@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Details</title>
+    <style>
+      @font-face {
+        font-family: 'HYWenHei-85W';
+        src: url('zh-cn.ttf') format('truetype');
+      }
+      @media (max-width:1080px) {
+        .container{
+          flex-direction: column;
+        }
+        .container::before{
+          position: absolute;
+          height: 1920px;
+          width: 80%;
+        }
+      }
+      body{
+        font-family: 'HYWenHei-85W';
+        background-image:url(electro-background.jpg); /* Replace with the path to your image */
+        background-size: cover; /* Ensures the background image always covers the entire area */
+        background-position: center; /* Keeps the image centered when resized */
+        background-attachment: fixed; /* Keeps the image fixed while the rest of the content scrolls */
+        background-repeat: no-repeat; /* Prevents tiling of the image */
+        height: auto; /* Sets the container height to full viewport height */
+        min-height: 100vh;
+        margin: 0; /* Removes any default margin around the body */
+      }
+      .background-overlay{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .container{
+        width:80%;
+        height: 80%;
+        padding-top:15px;
+        padding-bottom:15px;
+        padding-right:15px;
+        padding-left:15px;
+        border-radius:25px;
+        display: flex;
+        justify-content: space-evenly;
+        
+      }
+      .container::before {
+        content: "";
+        padding: 10px;
+        top: 8%;
+        left: 8%;
+        right: 8%;
+        height: 80vh;
+        background-color: rgb(249, 249, 249);
+        opacity: 30%;
+        z-index: -1; /* Places it behind the content */
+        border-radius: 25px; /* Matches the border-radius of the overlay */
+        position: absolute;
+      }
+      .character-container, .weapon-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .details-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-width: 30%;
+      }
+      img{
+        height: 55vh;
+        border-radius: 20px;
+      }
+      p{
+        color: white;
+        clear: none;
+        width: 80%;
+        margin: 3% 8%;
+        font-size: small;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div class="background-overlay">
+        <div class="container">
+          <div class="character-container">
+            <img src="raiden-banner.jpg">
+          </div>
+          <div class="details-container">
+            <p class="name">
+              Raiden Shogun
+            </p>
+            <p class="element">
+              Electro
+            </p>
+            <p class="profile">
+              Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.
+            </p>
+   
+          </div>
+          <div class="weapon-container">
+            <img src="engulfing-lightning.png">
+          </div>
+          
+        </div>
+      </div>
+      
+    </main>
+  </body>
+</html>

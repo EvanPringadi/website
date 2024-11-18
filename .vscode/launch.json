@@ -6,6 +6,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "CompoundInterest",
+      "request": "launch",
+      "mainClass": "CompoundInterest",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "no4",
+      "request": "launch",
+      "mainClass": "College.Algoritma.uts.no4",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "no3",
+      "request": "launch",
+      "mainClass": "College.Algoritma.uts.no3",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "no2",
+      "request": "launch",
+      "mainClass": "College.Algoritma.uts.no2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "no1",
+      "request": "launch",
+      "mainClass": "College.Algoritma.uts.no1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "tabel",
       "request": "launch",
       "mainClass": "College.Algoritma.array.tabel",

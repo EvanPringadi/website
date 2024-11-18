@@ -1,0 +1,25 @@
+li{
+  text-decoration: none;
+  display: inline-block;
+  background-color: rgb(150, 207, 150);
+  padding: 10px 40px;
+  box-sizing: border-box;
+}
+li:hover {
+  background-color: rgb(38, 142, 38);
+  cursor: pointer;
+}
+nav{
+  text-align: center;
+  padding: 0;
+  background-color: rgb(150, 207, 150);
+}
+a{
+  font-family: 'Arial';
+  text-decoration: none;
+  color: white;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}

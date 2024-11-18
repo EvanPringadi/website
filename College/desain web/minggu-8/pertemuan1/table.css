@@ -1,0 +1,23 @@
+table, tr, th, td{
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-wrap: wrap;
+}
+tr:nth-child(3n) {
+  background-color: lightblue;
+}
+tr:nth-child(5n) {
+  background-color: lightgray;
+}
+tr th {
+  border-top: 1px solid gray;
+  border-bottom: 2px solid black;
+  letter-spacing: 2px;
+  text-align: left;
+}
+tr th:nth-child(n+3) {
+  text-align: right;
+}
+td:hover, th:hover{
+  background-color: lightpink;
+}
