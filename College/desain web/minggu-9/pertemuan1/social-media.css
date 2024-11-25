@@ -1,0 +1,53 @@
+body{
+  background-color: rgb(26, 24, 24);
+  font-family: 'Times New Roman', Times, serif;
+}
+section{
+  margin-left: 2%;
+  float: left;
+}
+h2{
+  color: white;
+}
+ul{
+  padding: 0;
+}
+li{
+  color: rgb(197, 197, 143);
+  list-style-type: none;
+  font-size: 24px;
+}
+
+
+.facebook, .linkedin, .youtube, .twitter{
+  height: 60px;
+  width: 74px;
+  line-height: 50px;
+  display: inline-block;
+  background: url("social-media.jpg") no-repeat;
+  display: inline-block;
+  border-radius: 15px;
+  margin: 5px;
+}
+.linkedin{
+  background-position: -192px 0px;
+}
+.youtube{
+  background-position: -510px 0px;
+}
+.twitter{
+  background-position: -65px 0px;
+}
+
+.facebook:hover{
+  background-position: 0 -63px;
+}
+.linkedin:hover{
+  background-position: -192px -63px;
+}
+.youtube:hover{
+  background-position: -510px -63px;
+}
+.twitter:hover{
+  background-position: -65px -63px;
+}

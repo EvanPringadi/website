@@ -1,0 +1,65 @@
+body{
+  background-color: rgb(118, 171, 118);
+  display: flex;
+  justify-content: center;
+}
+form{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.photo{
+  border: 4px solid white;
+  width: 180px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+.triangle{
+  width: 50px;
+}
+section{
+  background-color: rgb(200, 233, 176);
+  padding: 50px 40px;
+  width: 400px;
+}
+h2{
+  color: white;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1px;
+}
+div img, div input {
+  background-color: inherit;
+  border: none;
+  margin: none;
+  padding: 5px;
+  text-align: start center;
+}
+div img{
+  border-radius: 5px 0 0 5px;
+}
+div{
+  background-color: rgb(244, 241, 213);
+  width: 400px;
+  height: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  border-radius: 5px;
+}
+input:focus{
+  border: none;
+}
+.submit{
+  border-radius: 5px;
+  color:rgb(244, 241, 213);
+  background-color: rgb(78, 138, 82);
+  width: 400px;
+  height: 30px;
+  margin-bottom: 20px;
+  border: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+footer p {
+  color: rgb(244, 241, 213);
+}

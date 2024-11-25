@@ -1,0 +1,59 @@
+body{
+  background-color: black;
+  font-family: 'Open Sans', sans-serif;
+  background: #1d211e;
+  font-size: 22px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+nav{
+  background-color: #e67c1f;
+}
+nav ul{
+  padding:0;
+  margin:0;
+  list-style-type: none;
+  position: relative;
+}
+nav ul li{
+  display: inline-block;
+  background-color: #e67c1f;
+}
+nav ul li a{
+  padding-top: 20px;
+}
+nav a{
+  display: block;
+  color:white;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: black;
+}
+nav ul ul{
+  display: none;
+  position: absolute;
+}
+nav ul li:hover>ul{
+  display: inline-block;
+}
+nav ul ul li{
+  width: 160px;
+  position: relative;
+  display: block;
+}
+
+nav ul ul ul{
+  display: none;
+  position: absolute;
+  top: 0;
+  left:160px;
+  background-color: #e67c1f;
+}
+a{
+  text-decoration: none;
+  color: white;
+  width: 160px;
+  height: 40px;
+}

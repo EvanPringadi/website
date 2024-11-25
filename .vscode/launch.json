@@ -6,6 +6,97 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul5_No10",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_1124012_Modul5_No10",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul5_No9",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_1124012_Modul5_No9",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul5_No8",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_1124012_Modul5_No8",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_Modul5_No7",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_Modul5_No7",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_Modul5_No6",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_Modul5_No6",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_Modul5_No5",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_Modul5_No5",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "no3",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ppt9.no3",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "no2",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ppt9.no2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "no1",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ppt9.no1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "iseng",
+      "request": "launch",
+      "mainClass": "College.Algoritma.iseng",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul5_No3",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_1124012_Modul5_No3",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul5_No2",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_1124012_Modul5_No2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul5_No1",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_1124012_Modul5_No1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "CompoundInterest",
       "request": "launch",
       "mainClass": "CompoundInterest",
