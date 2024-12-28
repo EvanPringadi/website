@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Timer</title>
+    <script src="jquery-3.7.1.js"></script>
+    <style>
+      #timer {
+      font-size: 5em;
+      }
+      #Square {
+        height : 200px;
+        width : 200px;
+        text-wrap: wrap;
+        background-color: green;
+        border: 3px solid gray;
+      }
+      img{
+        display: block;
+        width:400px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="timer">
+      <span id="hours" class="timer">00</span>:
+      <span id="minutes" class="timer">00</span>:
+      <span id="seconds" class="timer">00</span>
+      <button id="start-timer">Start</button>
+      <button id="stop-timer">Pause</button>
+    </div>
+
+    <div id="Square">
+      This is a SQUARE
+    </div>
+    <button onclick="hideSquare()">Hide</button>
+    <button onclick="showSquare()">Show</button>
+    <script src="timer.js"></script>
+
+    <br>
+
+    <button id="flower">Click Me</button>
+    <img src="image.png" class="flower">
+    <script>
+      window.onload=function(){
+      timer();
+      }
+      function hideSquare() {
+        $('#Square').hide();
+      }
+      function showSquare() {
+        $('#Square').show();
+      }
+
+      $('#flower').click(() => {
+        $('.flower').toggle();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <p class="square"></p>
+    <input class="square-input" type="text" placeholder="Enter a length for a square" onkeyup="makeSquare()">
+    <script>
+      perkalianSepuluh(10);
+      function perkalianSepuluh(angka) {
+        for (let index = 1; index <= 10; index++) {
+          document.writeln("<p>" + (angka + "X" + index + "=" + (angka*index)));
+        }
+      }
+
+      let num = [10, 25, 30, 41, 60];
+      document.writeln("<p>" + hitungGenap(num));
+      function hitungGenap(array) {
+        let counter = 0;
+        for(let number in array) {
+          if (number%2 == 0) {
+            counter++;
+          }
+        }
+        return counter;
+      }
+
+      panjangKata("chocolate", "ice cream", "cake");
+      function panjangKata(string1, string2, string3) {
+        document.writeln("<p>" + `Panjang kata "` + string1 + `" adalah: ` + string1.length);
+        document.writeln("<p>" + `Panjang kata "` + string2 + `" adalah: ` + string2.length);
+        document.writeln("<p>" + `Panjang kata "` + string3 + `" adalah: ` + string3.length);
+      }
+
+      function makeSquare() {
+        const input = document.querySelector(".square-input").value;
+        let html = ``;
+        for (let i = 0; i < input; i++) {
+          html += "<p>"
+          for(let j = 0; j < input; j++) {
+            html += "*";
+          }
+          html += "</p>"
+        }
+        document.querySelector(".square").innerHTML = html;
+      }
+
+      let num2 = [7, -2, 8, -9, -30];
+      writeNegative(num2);
+      function writeNegative(array) {
+        let counter = 0;
+        for(let i = 0; i < array.length; i++) {
+          if (array[i] < 0) {
+            document.writeln("<p>" + array[i] + " bilangan negatif</p>")
+            counter++;
+          }
+        }
+          
+          document.writeln("<p>" + "Total bilangan negatif pada array: " + counter + "</p>")
+      }
+
+      let num3 = [5, 20, 18, 12, 80];
+      let hasil = countOddIndex(num3);
+      document.write("<p>Total bilangan index ganjil pada array: " + hasil + "</p>")
+      function countOddIndex(array) {
+        let total = 0;
+        for(let i = 0; i < array.length; i++) {
+          if (i%2 == 0) {
+            total+= array[i];
+          }
+        }
+        return total;
+      }
+    </script>
+  </body>
+</html>

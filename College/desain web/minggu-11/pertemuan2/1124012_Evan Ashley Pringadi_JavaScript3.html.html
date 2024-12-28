@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>input,p{display: inline-block;}</style>
+  </head>
+  <body>
+    <button onclick="number1()">Number 1</button>
+    <div id="1"></div>
+
+    <input class="celsius" onkeyup="celsiusToFahrenheit()"><p>degrees Celsius</p>
+    <br>
+    <p>equals</p> 
+    <br>
+    <input class="fahrenheit" onkeyup="fahrenheitToCelsius()"><p>degrees Fahrenheit</p>
+    <br>
+
+    <input class="a" onkeyup="number3()"><input class="operator" onkeyup="number3()"><input class="b" onkeyup="number3()"><p>=</p><input class="c">
+
+    <br>
+
+    <input type="radio" name="color" onclick="number4('pink')"><p>Pink</p>
+    <input type="radio" name="color" onclick="number4('lightblue')"><p>Light Blue</p>
+    <input type="radio" name="color" onclick="number4('yellow')"><p>Yellow</p>
+    <input type="radio" name="color" onclick="number4('purple')"><p>Purple</p>
+
+    <script>
+      function number1() {
+        let name = ["David", "Vinoth", "Divya", "Ishitha", "Thomas"];
+        const num = [80, 77, 88, 95, 68];
+        let total = 0;
+        let quantity = 0;
+        for(let i = 0; i < num.length; i++) {
+          total = num[i] + total;
+          quantity++;
+        }
+        let grade = "";
+        let average = total/quantity;
+        if(average < 60) {
+          grade = "F";
+        } else if(average < 70) {
+          grade = "D";
+        } else if(average < 80) {
+          grade = "C";
+        } else if(average < 90) {
+          grade = "B";
+        } else {
+          grade = "A";
+        }
+        let html = `
+        <table>
+          <tr>
+            <th>Student Name</th>
+            <th>Marks</th>
+          </tr>
+        `;
+        for(let i = 0; i < num.length; i++) {
+          html += `
+          <tr>
+            <td>${name[i]}</td>
+            <td>${num[i]}</td>
+          </tr>`;
+        }
+        html += `</table>`;
+        let html2 = `Average: ${average}, Grade: ${grade}`;
+        document.getElementById("1").innerHTML = html;
+        alert(html2);
+      }
+      let derajat = 0;
+      function celsiusToFahrenheit() {
+        derajat = document.querySelector(".celsius").value;
+        let result = (derajat/5*9) + 32;
+        document.querySelector(".fahrenheit").value = result;
+      }
+      function fahrenheitToCelsius(derajat) {
+        derajat = document.querySelector(".fahrenheit").value;
+        let result = (derajat-32)/9*5;
+        document.querySelector(".celsius").value = result;
+      }
+      
+      function number3() {
+        let a = parseFloat(document.querySelector(".a").value);
+        let b = parseFloat(document.querySelector(".b").value);
+        let operator = document.querySelector(".operator").value;
+        let c = document.querySelector(".c").value;
+        switch (operator) {
+          case '+': c = a+b; break;
+          case '-': c = a-b; break;
+          case '*': c = a*b; break;
+          case '/': c = a/b; break;
+        }
+        document.querySelector(".c").value = c;
+      }
+      function number4(color) {
+        document.body.style.background = color;
+      }
+    </script>
+  </body>
+</html>

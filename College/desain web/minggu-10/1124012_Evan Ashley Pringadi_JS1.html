@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head><style>td{border: 1px solid black}</style></head>
+  <body>
+    <table class="table"><tr><td>hello</td></tr></table>
+    <br>
+    <script>
+      document.writeln("Calculate");
+      const no1 = (30+25) + ((35-14)*2);
+      document.writeln(no1);
+      
+      document.writeln("<br>Bigger Number");
+      const a = 20;
+      const b = 31;
+      if(a>b) {
+        document.writeln(a);
+      } else{
+        document.writeln(b);
+      }
+
+      document.writeln("<br>Function");
+      const derajatCelsius = 50;
+      const derajatfahrenheit = 80;
+      function celsiusToFahrenheit(derajat) {
+        return (derajat*9/20) + 32;
+      }
+      function fahrenheitToCelsius(derajat) {
+        return (derajat-32)/9*5;
+      }
+      document.writeln("<br>"+celsiusToFahrenheit(derajatCelsius));
+      document.writeln("<br>"+fahrenheitToCelsius(derajatfahrenheit));
+
+      let html = ``;
+      let counter = 1;
+      for(let i = 1; i<= 5; i++) {
+        html += `<tr>`;
+        for(let j = 0; j < 4; j++) {
+          html += `<td>${counter}</td>`;
+          counter++;
+        }
+        html += `</tr>`;
+      }
+      console.log(html);
+      document.querySelector(".table").innerHTML = html;
+
+      let fruits = ["stroberi", "apel", "pisang", "semangka"];
+      for(let i = 0; i < fruits.length; i++) {
+          document.writeln("<br>"+fruits[i]);
+      }
+      
+    </script>
+  </body>
+</html>

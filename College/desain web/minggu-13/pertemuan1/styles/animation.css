@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px 200px;
+  height: 100vh;
+  width: 100vw;
+}
+
+h1 {
+  margin-bottom: 60px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 200px;
+}
+
+.content p {
+  flex: 1;
+  font-size: 1rem;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.content img {
+  height: 400px;
+  width: auto;
+  object-fit: contain;
+  border-radius: 20px;
+}
+
+
+/* Apply animation to the image */
+.spinning-image {
+  width: 200px; /* Adjust size as needed */
+  height: auto;
+  animation: spin 0.01s linear infinite; /* Spin infinitely */
+  
+}
+
+/* Keyframes for the spinning animation */
+@keyframes spin {
+  from {
+    transform: rotateX(0deg) rotateY(0deg) rotateZ(0deg);
+  }
+  to {
+    transform: rotateX(0deg) rotateY(1999deg) rotateZ(0deg);
+  }
+}

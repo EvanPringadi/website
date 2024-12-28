@@ -1,0 +1,48 @@
+body{
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin:0;
+  height: 4000px;
+}
+header{
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 30px;
+  background-color: gray;
+  width: 100%;
+}
+p{
+  margin-bottom:300px;
+  font-size: 40px;
+}
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+img{
+  width: 200px;
+}
+
+@keyframes popping {
+  0% {
+    opacity: 0;
+    scale: 0.5;
+  }
+  50% {
+    opacity: 1;
+    scale: 1;
+  }
+  100% {
+    opacity: 0;
+    scale: 0.5;
+  }
+}
+.pop{
+  animation: popping linear;
+  animation-timeline: view();
+  animation-range: entry 0 cover 70%;
+}

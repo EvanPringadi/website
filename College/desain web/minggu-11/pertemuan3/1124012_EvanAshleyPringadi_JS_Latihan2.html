@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <table>
+      <tr><th>Product</th><th>Cost</th></tr>
+      <tr><td>Beer</td><td class="cost1 cost">2.88</td></tr>
+      <tr><td>Fries</td><td class="cost2 cost">2.15</td></tr>
+      <tr><td>Burger</td><td class="cost3 cost">4.59</td></tr>
+      <tr><td>Total: </td><td class="result"></td></tr>
+    </table>
+    <button onclick="countSum()">Sum</button>
+    <script>
+      function countSum() {
+        let quantity = document.querySelectorAll(".cost").length;
+        let total = 0;
+        for(let i = 1; i <= quantity; i++) {
+          total += parseFloat(document.querySelector(".cost" + i).innerHTML);
+        }
+        document.querySelector(".result").innerHTML = total;
+      }
+    </script>
+  </body>
+</html>

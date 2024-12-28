@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .color{
+        tr:nth-child(2n) {
+          background-color: green;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p><a class="color">Blue</a><a class="color">Green</a><a class="color">Gray</a><a class="color">Red</a></p>
+
+    <table id="table">
+      <tr><th>Name</th><th>Town</th></tr>
+      <tr><td>Eve</td><td>Sofia</td></tr>
+      <tr><td>Nick</td><td>Varna</td></tr>
+      <tr><td>Didi</td><td>Ruse</td></tr>
+      <tr><td>Tedy</td><td>Varna</td></tr>
+    </table>
+    <button onclick="colorize()">Colorize</button>
+    <button onclick="grayscale()">Grayscale</button>
+    <script>
+      let year = prompt("Input Tahun: ");
+      let kabisat = false;
+      if(year % 400 == 0) {
+        kabisat = true;
+      } else if(year%4 == 0 && year%100 != 100) {
+        kabisat = true;
+      }
+      alert(kabisat);
+
+      let input = document.querySelectorAll(".color");
+      input.forEach(element => {element.addEventListener("mouseover", () => changeBackground(element))});
+
+
+      function changeBackground(text) {
+        console.log("hi");
+        document.body.style.background = text.innerText;
+      }
+      
+      function colorize() {
+        let table = document.getElementById("table");
+        table.classList.add("color");
+      }
+      function grayscale() {
+        let table = document.getElementById("table");
+        table.classList.remove("color");
+      }
+    </script>
+  </body>
+</html>

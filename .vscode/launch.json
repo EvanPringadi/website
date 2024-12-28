@@ -6,6 +6,230 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ArrayStructArrayMultipleFunctions",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ArrayStructArray.ArrayStructArrayMultipleFunctions",
+      "projectName": "Coding_5628c1c4"
+    },
+    {
+      "type": "java",
+      "name": "Quiz2_Soal4_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz2.Quiz2_Soal4_1124012",
+      "projectName": "Coding_5628c1c4"
+    },
+    {
+      "type": "java",
+      "name": "Quiz2_Soal3_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz2.Quiz2_Soal3_1124012",
+      "projectName": "Coding_5628c1c4"
+    },
+    {
+      "type": "java",
+      "name": "Quiz2_Soal2_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz2.Quiz2_Soal2_1124012",
+      "projectName": "Coding_5628c1c4"
+    },
+    {
+      "type": "java",
+      "name": "Quiz2_Soal1_1124012",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Quiz2.Quiz2_Soal1_1124012",
+      "projectName": "Coding_5628c1c4"
+    },
+    {
+      "type": "java",
+      "name": "ArrayStructArray",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ArrayStructArray.ArrayStructArray",
+      "projectName": "Coding_5628c1c4"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul7_No6",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul7.EvanAshleyPringadi_1124012_Modul7_No6",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul7_No5",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul7.EvanAshleyPringadi_1124012_Modul7_No5",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "InsertionSort",
+      "request": "launch",
+      "mainClass": "College.Algoritma.Sorting.InsertionSort",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul7_No2",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul7.EvanAshleyPringadi_1124012_Modul7_No2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Main",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul7.Main",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "SelectionSort",
+      "request": "launch",
+      "mainClass": "College.Algoritma.Sorting.SelectionSort",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "BubbleSort",
+      "request": "launch",
+      "mainClass": "College.Algoritma.Sorting.BubbleSort",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul7_No4",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul7.EvanAshleyPringadi_1124012_Modul7_No4",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "PasienRumahSakit",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul7.PasienRumahSakit",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul7_No1",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul7.EvanAshleyPringadi_1124012_Modul7_No1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "Upah",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ClassArray.Upah",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "NilaiMhs",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ClassArray.NilaiMhs",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "gajahTerbang",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ClassJava.gajahTerbang",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "SelisihJam",
+      "request": "launch",
+      "mainClass": "College.Algoritma.basics.SelisihJam",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "nilaiMhs",
+      "request": "launch",
+      "mainClass": "College.Algoritma.ClassJava.nilaiMhs",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "nilaiMhs",
+      "request": "launch",
+      "mainClass": "nilaiMhs",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No10",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No10",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No9",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No9",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No8",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No8",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No7",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No7",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No6",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No6",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No5",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No5",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No4",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No4",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No3",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No3",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No2",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No2",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
+      "name": "EvanAshleyPringadi_1124012_Modul6_No1",
+      "request": "launch",
+      "mainClass": "College.PraktikumAlgo.Modul6.EvanAshleyPringadi_1124012_Modul6_No1",
+      "projectName": "website_1c8b55a1"
+    },
+    {
+      "type": "java",
       "name": "EvanAshleyPringadi_1124012_Modul5_No10",
       "request": "launch",
       "mainClass": "College.PraktikumAlgo.Modul5.EvanAshleyPringadi_1124012_Modul5_No10",
