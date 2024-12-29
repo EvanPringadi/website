@@ -5,7 +5,7 @@ let html = ``;
 characters.forEach((character) => {
   html += `
   <section data-name="${character.name}">
-    <img src=${character.profileSRC}>
+    <img src=${character.profileSRC} class="profile">
     <p>${character.name}</p>
   </section>
   `;
