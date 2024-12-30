@@ -28,7 +28,7 @@
     height: 93%;
     width: 80%;
   }
-  img{
+  .banner{
     height: 300px;
   }
   .background-overlay{
@@ -74,6 +74,94 @@ body{
   height: auto; /* Sets the container height to full viewport height */
   margin: 0; /* Removes any default margin around the body */
 }
+/*Start of Header*/
+header{
+  color:rgba(255, 255, 255, 0.854);
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  position:fixed;
+  top:0px;
+  left:0px;
+  right:0px;
+  height:50px;
+  padding:20px;
+  font-size: 25px;
+}
+header div {
+  display: flex;
+  flex-direction: row;
+}
+.middle-section{
+  padding: 0 20px;
+  justify-content: center;
+  align-items: center;
+}
+.right-section{
+  justify-content: end;
+}
+.character{
+  background: url("../images/icons/characters.jpg") no-repeat;
+}
+.change-character{
+  background-position: -65px 0px;
+}
+.icon{
+  background-size: cover;
+  width: 70px;
+  height: 70px;
+  mix-blend-mode: screen;
+}
+h1{
+  font-size: 30px;
+  font-weight: initial;
+  color: white;
+}
+.logo{
+  width: 100px;
+  height: 50px;
+  padding-bottom: 20px;
+  margin-right: 10px;
+}
+.character{
+  height: 80px;
+  width: 65px;
+}
+@media (max-width: 1080px) {
+  .icon{
+    width: 50px;
+    height: 50px;
+  }
+  .logo{
+    width: 80px;
+    height: 40px;
+  }
+  h1{
+    font-size: 16px;
+  }
+  header{
+    font-size: 20px;
+  }
+  .character{
+    height: 54px;
+    width: 40px;
+    padding: none;
+  }
+  .change-character{
+    background-position: -47px 0px;
+  }
+}
+ul{
+  margin: 0;
+  list-style: none;
+  display: flex;
+  justify-content: end;
+  padding: 0;
+}
+li{
+  margin-left: 1em;
+}
+/*End of Header*/
+
 .container{
   width:80%;
   height: auto;
@@ -103,8 +191,7 @@ body{
 .info{
 text-align:right;
 }
-
-img{
+.banner{
   height: 55vh;
   border-radius: 20px;
 }

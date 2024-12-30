@@ -7,7 +7,7 @@ document.body.style.backgroundImage = `url('./images/background/${character.elem
 
 let characterDetailsHTML = `
         <div class="character-container">
-          <img src="${character.bannerSRC}">
+          <img src="${character.bannerSRC}" class="banner">
         </div>
 
         <div class="details">
@@ -24,7 +24,7 @@ let characterDetailsHTML = `
         </div>
 
         <div class="weapon-container">
-          <img src="${character.weaponSRC}">
+          <img src="${character.weaponSRC}" class="banner">
         </div>
         
       </div>
