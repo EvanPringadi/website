@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "frame",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.frame",
+      "projectName": "Coding_5628c1c4"
+    },
+    {
+      "type": "java",
+      "name": "bintang",
+      "request": "launch",
+      "mainClass": "College.Algoritma.forloop.bintang",
+      "projectName": "Coding_5628c1c4"
+    },
+    {
+      "type": "java",
       "name": "ArrayStructArrayMultipleFunctions",
       "request": "launch",
       "mainClass": "College.Algoritma.ArrayStructArray.ArrayStructArrayMultipleFunctions",
