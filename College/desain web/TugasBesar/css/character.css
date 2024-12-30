@@ -19,7 +19,7 @@ header{
   color:rgba(255, 255, 255, 0.854);
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  position:fixed;
+  position:static;
   top:0px;
   left:0px;
   right:0px;

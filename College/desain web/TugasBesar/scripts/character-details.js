@@ -3,7 +3,7 @@ import { getPickedCharacter } from "./characters.js";
 let character = getPickedCharacter();
 console.log(character);
 console.log("hi");
-document.body.style.backgroundImage = `url('./images/background/${character.element}-background.jpg')`;
+document.body.style.backgroundImage = `url('../images/background/${character.element}-background.jpg')`;
 
 let characterDetailsHTML = `
         <div class="character-container">

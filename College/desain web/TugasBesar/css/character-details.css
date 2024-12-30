@@ -25,15 +25,16 @@
     z-index: -1; /* Places it behind the content */
     border-radius: 25px; /* Matches the border-radius of the overlay */
     position: absolute;
-    height: 93%;
+    height: 95%;
     width: 80%;
   }
   .banner{
-    height: 300px;
+    min-height: 300px;
+    max-width: 80%;
   }
   .background-overlay{
     position: absolute;
-    padding-top: 24%;
+    padding-top: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +80,7 @@ header{
   color:rgba(255, 255, 255, 0.854);
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
-  position:fixed;
+  position:static;
   top:0px;
   left:0px;
   right:0px;

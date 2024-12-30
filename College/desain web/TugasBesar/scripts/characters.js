@@ -18,9 +18,9 @@ export const characters = [
     birthday: "6/26",
     affiliation: "Inazuma City",
     description: "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
-    profileSRC : "images/profile/raiden-profile.jpg",
-    bannerSRC : "./images/banner/raiden-banner.jpg",
-    weaponSRC : "./images/weapon/engulfing-lightning.png"
+    profileSRC : "../images/profile/raiden-profile.jpg",
+    bannerSRC : "../images/banner/raiden-banner.jpg",
+    weaponSRC : "../images/weapon/engulfing-lightning.png"
   },
   {
     name : "Furina",
@@ -29,14 +29,14 @@ export const characters = [
     birthday: "10/13",
     affiliation: "Court of Fontaine",
     description: "The absolute focus of the stage of judgement, until the final applause sounds.",
-    profileSRC : "images/profile/furina-profile.jpg",
-    bannerSRC : "./images/banner/furina-banner.jpg",
-    weaponSRC : "./images/weapon/splendor-of-tranquil-waters.jpg"
+    profileSRC : "../images/profile/furina-profile.jpg",
+    bannerSRC : "../images/banner/furina-banner.jpg",
+    weaponSRC : "../images/weapon/splendor-of-tranquil-waters.jpg"
   }, 
   {
     name : "Nahida",
     element: "Dendro",
-    profileSRC : "images/profile/nahida-profile.jpg"
+    profileSRC : "../images/profile/nahida-profile.jpg"
     
   }
 ];
@@ -54,8 +54,8 @@ export function loadFromStorage() {
       affiliation: "Inazuma City",
       description: "Her Excellency, the Almighty Narukami Ogosho, who promised the people of Inazuma an unchanging Eternity.",
       profileSRC : "images/profile/raiden-profile.jpg",
-      bannerSRC : "./images/banner/raiden-banner.jpg",
-      weaponSRC : "./images/weapon/engulfing-lightning.png"
+      bannerSRC : "../images/banner/raiden-banner.jpg",
+      weaponSRC : "../images/weapon/engulfing-lightning.png"
     };
   }
 }
